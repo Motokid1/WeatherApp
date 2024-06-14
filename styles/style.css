@@ -7,10 +7,6 @@
   opacity: 100%;
 }
 
-.mobile-navbar {
-  display: none;
-}
-
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -36,7 +32,9 @@ body {
   transition: 0.3s;
 }
 
+/* Mobile navbar styles */
 .mobile-navbar {
+  display: none;
   list-style-type: none;
   opacity: 100%;
   transition: 0.3s;
