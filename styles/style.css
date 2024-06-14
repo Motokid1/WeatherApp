@@ -30,18 +30,14 @@ body {
 }
 
 .navbar {
-  /* background: #212a51; */
   background: rgba(0, 0, 0, 0.375);
   text-align: right;
   opacity: 100%;
   transition: 0.3s;
 }
 
-/* START OF MOBILE STYLES */
-
 .mobile-navbar {
   list-style-type: none;
-  /* background: rgba(0, 0, 0, 1.0); */
   opacity: 100%;
   transition: 0.3s;
 }
@@ -66,8 +62,6 @@ body {
 .mobile-navbar input::placeholder {
   color: lightgrey;
 }
-
-/* END OF MOBILE STYLES */
 
 ul {
   margin: 0;
@@ -288,90 +282,8 @@ footer {
   margin: auto;
 }
 
-.project-details, .admin-details {
-  font-weight: 400;
-  margin: 10px 0;
-}
-
-.social-links {
-  list-style-type: none;
-  padding: 0;
-}
-
-.social-links li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-.social-links li a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 20px;
-  transition: 0.3s;
-}
-
-.social-links li a:hover {
-  color: lightgrey;
-}
-
-.social-icon {
-  font-size: 20px;
-  vertical-align: middle;
-  margin-right: 5px;
-}
-
-@media (max-width: 600px) {
-  .footer {
-    padding: 15px;
-  }
-  .footer-content {
-    padding: 0 10px;
-  }
-  .social-links li {
-    margin: 5px;
-  }
-}
-</style>
-This code uses Font Awesome icons for GitHub, LinkedIn, and Instagram. The script tag includes the Font Awesome library. Adjust the admin details and social links as necessary for your project.
-
-
-
-
-
-give the footer with icons using favicon icons
-ChatGPT
-Certainly! If you want to use favicon icons directly for GitHub, LinkedIn, and Instagram in your footer, you can use the following approach. Favicon icons are typically small and not intended for use as social icons, but you can still use them for demonstration purposes. Here's how you can do it:
-
-html
-Copy code
-<!-- Footer Section -->
-<footer class="footer">
-<div class="footer-content">
-  <p class="project-details">This project is designed to provide real-time weather updates and forecasts.</p>
-  <p class="admin-details">Admin: John Doe</p>
-  <ul class="social-links">
-    <li><a href="https://github.com/johndoe" target="_blank"><img src="https://github.com/favicon.ico" alt="GitHub" class="social-icon"> GitHub</a></li>
-    <li><a href="https://linkedin.com/in/johndoe" target="_blank"><img src="https://www.linkedin.com/favicon.ico" alt="LinkedIn" class="social-icon"> LinkedIn</a></li>
-    <li><a href="https://instagram.com/johndoe" target="_blank"><img src="https://www.instagram.com/static/images/ico/favicon-192.png/68d99ba29cc8.png" alt="Instagram" class="social-icon"> Instagram</a></li>
-  </ul>
-</div>
-</footer>
-
-<style>
-.footer {
-  background: rgba(0, 0, 0, 0.375);
-  text-align: center;
-  padding: 20px;
-  color: #fff;
-  margin-top: 25px;
-}
-
-.footer-content {
-  max-width: 600px;
-  margin: auto;
-}
-
-.project-details, .admin-details {
+.project-details,
+.admin-details {
   font-weight: 400;
   margin: 10px 0;
 }
@@ -417,6 +329,7 @@ Copy code
     margin: 5px;
   }
 }
+
 .location-details {
   text-align: center;
   color: #fff;
